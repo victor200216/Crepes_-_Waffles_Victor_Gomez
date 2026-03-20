@@ -1,8 +1,17 @@
-.banner-img{
-    background-image: url("/imagenes/logo-waffle-crepes-waffles.png");
-    height: 300px;
-    background-size: cover;
-    background-position: center;
+.menu-lateral{
+    position: fixed;
+    left: 10px;
+    top: 200px;
+}
+
+.menu-lateral a{
+    display: block;
+    margin: 10px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
 }
 body {
     font-family: Arial;
